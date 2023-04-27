@@ -633,10 +633,10 @@ abstract contract ERC20Burnable is Context, ERC20 {
     }
 }
 
-// File: testToken.sol
+// File: Token.sol
 
 
-contract testToken is ERC20, ERC20Burnable, Ownable {
+contract Token is ERC20, ERC20Burnable, Ownable {
 
     constructor(uint256 _supply) ERC20("bobcoin", "BOBC") {
        
